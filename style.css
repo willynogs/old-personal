@@ -51,6 +51,9 @@ a i:hover {
 .fixed-width ul li {
 	font-size: 1.2em;
 }
+.resumepage p {
+	font-size: 1em;
+}
 /*
 @media (max-width: 845px){
 	.head {
