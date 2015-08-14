@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	margin-top: 30px;
+}
+h1 {
+	font-family: 'Cabin', sans-serif;
+	font-size: 7em;
+	color: white;
+	margin: 10px;
+	padding-top: 100px;
+	clear: both;
+	text-align: center;
+}
+i {
+	color: white;
+	margin: 0;
+	padding: 7px 10px 0 0;
+	float: right;
+}
+a {
+	color: #1E1E1E;
+}
+a i:hover {
+	color: #1E1E1E;
+}
+.head {
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	position: relative;
+	width: 600px;
+	height: 450px;
+	background-image: url(mountains.jpeg);
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.fixed-width {
+	font-family: 'Vollkorn', sans-serif;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fixed-width h2 {
+	font-size: 3em;
+	border-bottom: 2px solid #1E1E1E;
+}
+.fixed-width p {
+	font-size: 1.2em;
+}
+.fixed-width ul li {
+	font-size: 1.2em;
+}
+/*
+@media (max-width: 845px){
+	.head {
+		display: none;
+	}
+*/
+}
