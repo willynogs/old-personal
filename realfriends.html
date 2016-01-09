@@ -10,12 +10,23 @@
       background-color: #000000;
       overflow: hidden;
     }
+    
+    h1 {
+      position: absolute;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-family: 'Cabin', sans-serif;
+      font-size: 7em;
+      color: white;
+    }
   </style>
+  <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-
   <script src="three.min.js"></script>
+
+  <h1>real friends</h1>
 
   <script>
     var camera, scene, renderer;
@@ -26,7 +37,7 @@
 
     function init() {
 
-      camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 1000);
+      camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 1, 1000);
       camera.position.z = 400;
 
       var listener = new THREE.AudioListener();
