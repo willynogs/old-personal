@@ -36,7 +36,6 @@
     animate();
 
     function init() {
-
       camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 1, 1000);
       camera.position.z = 400;
 
@@ -65,8 +64,6 @@
       renderer.setPixelRatio(window.devicePixelRatio);
       renderer.setSize(window.innerWidth, window.innerHeight);
       document.body.appendChild(renderer.domElement);
-
-      //
 
       window.addEventListener('resize', onWindowResize, false);
 
