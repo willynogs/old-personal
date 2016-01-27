@@ -1,7 +1,20 @@
 body {
+	color: white;
 	font-family: 'Cabin', sans-serif;
+	background-color: #111111;
 }
 
+.self {
+	margin: 0 auto;
+	height: 100%;
+	width: auto;
+}
+
+.self img { 
+	height: 100%;
+}
+
+/*
 .main-img {
 	width: 350px; 
 	height: auto; 
@@ -19,3 +32,4 @@ h1 {
 h2 {
 	padding-top: 40px;
 }
+*/
