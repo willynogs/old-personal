@@ -37,6 +37,15 @@ a i:hover {
 	background-image: url(trees.jpeg);
 	margin: auto;
 }
+.head a p {
+	font-family: 'Cabin', sans-serif;
+	padding: 7px 10px 0 0;
+	color: white;
+	float: right;
+}
+.head a p:hover {
+	color: #1E1E1E;
+}
 .container {
 	height: 100vh;
 }
